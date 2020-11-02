@@ -25,12 +25,16 @@ class OwnView: UIView {
     
     private func setupView() {
         addSubview(imgView)
+        let OwnViewconstr1 = imgView.leadingAnchor.constraint(equalTo: leadingAnchor)
+        let OwnViewconstr2 = trailingAnchor.constraint(equalTo: imgView.trailingAnchor)
+        let OwnViewconstr3 = imgView.topAnchor.constraint(equalTo: topAnchor)
+        let OwnViewconstr4 = bottomAnchor.constraint(equalTo: imgView.bottomAnchor)
         
         NSLayoutConstraint.activate([
-            imgView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            imgView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            imgView.topAnchor.constraint(equalTo: topAnchor),
-            imgView.bottomAnchor.constraint(equalTo: bottomAnchor)
+            OwnViewconstr1,
+            OwnViewconstr2,
+            OwnViewconstr3,
+            OwnViewconstr4
         ])
         
     }

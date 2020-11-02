@@ -22,12 +22,17 @@ class ViewController: UIViewController {
     }
     private func setupView() {
         view.addSubview(ownView)
+        let VCCostr1 = ownView.leadingAnchor.constraint(equalTo: view.leadingAnchor)
+            let VCCostr2 = ownView.topAnchor.constraint(equalTo: view.topAnchor)
+            let VCCostr3 = view.trailingAnchor.constraint(equalTo: ownView.trailingAnchor)
+            let VCCostr4 = view.bottomAnchor.constraint(equalTo: ownView.bottomAnchor)
         
         NSLayoutConstraint.activate([
-                                        ownView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-                                        ownView.topAnchor.constraint(equalTo: view.topAnchor),
-                                        ownView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-                                        ownView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+           VCCostr1,
+            VCCostr2,
+            VCCostr3,
+            VCCostr4
+            
         ])
     }
     

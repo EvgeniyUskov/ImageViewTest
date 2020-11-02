@@ -14,6 +14,8 @@
 		442C4198254FC2EE00A72776 /* TestView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 442C4196254FC2EE00A72776 /* TestView.xcdatamodeld */; };
 		442C419A254FC2EF00A72776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442C4199254FC2EF00A72776 /* Assets.xcassets */; };
 		442C419D254FC2EF00A72776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442C419B254FC2EF00A72776 /* LaunchScreen.storyboard */; };
+		448E1070254FC3AC00AB6C64 /* OwnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E106F254FC3AC00AB6C64 /* OwnView.swift */; };
+		448E1073254FC50D00AB6C64 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E1072254FC50D00AB6C64 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		442C4199254FC2EF00A72776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442C419C254FC2EF00A72776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442C419E254FC2EF00A72776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448E106F254FC3AC00AB6C64 /* OwnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnView.swift; sourceTree = "<group>"; };
+		448E1072254FC50D00AB6C64 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				442C418D254FC2EE00A72776 /* AppDelegate.swift */,
 				442C418F254FC2EE00A72776 /* SceneDelegate.swift */,
 				442C4191254FC2EE00A72776 /* ViewController.swift */,
+				448E106F254FC3AC00AB6C64 /* OwnView.swift */,
+				448E1072254FC50D00AB6C64 /* UIImage.swift */,
 				442C4193254FC2EE00A72776 /* Main.storyboard */,
 				442C4199254FC2EF00A72776 /* Assets.xcassets */,
 				442C419B254FC2EF00A72776 /* LaunchScreen.storyboard */,
@@ -142,6 +148,8 @@
 			files = (
 				442C4198254FC2EE00A72776 /* TestView.xcdatamodeld in Sources */,
 				442C4192254FC2EE00A72776 /* ViewController.swift in Sources */,
+				448E1070254FC3AC00AB6C64 /* OwnView.swift in Sources */,
+				448E1073254FC50D00AB6C64 /* UIImage.swift in Sources */,
 				442C418E254FC2EE00A72776 /* AppDelegate.swift in Sources */,
 				442C4190254FC2EE00A72776 /* SceneDelegate.swift in Sources */,
 			);
